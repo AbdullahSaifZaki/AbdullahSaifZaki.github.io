@@ -95,7 +95,7 @@
     themeButton.setAttribute("aria-pressed", String(theme === "dark"));
     document.querySelector('meta[name="theme-color"]').content = theme === "dark" ? "#171521" : "#ffffff";
   };
-  try { applyTheme(localStorage.getItem("portfolio-theme") === "dark" ? "dark" : "light"); } catch { applyTheme("light"); }
+  try { applyTheme(localStorage.getItem("portfolio-theme") === "light" ? "light" : "dark"); } catch { applyTheme("dark"); }
   themeButton.addEventListener("click", () => {
     const theme = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
     applyTheme(theme);
