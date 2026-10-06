@@ -78,7 +78,7 @@ h1 { font-size: clamp(46px, 5vw, 65px); letter-spacing: -.055em; margin-top: 25p
 .button-primary[href]:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgb(91 36 122 / 18%); }
 .button svg { width: 17px; height: 17px; }
 .social-link { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 49px; padding: 12px 17px; border: 1px solid var(--line); border-radius: 7px; background: var(--surface); font-size: 13px; font-weight: 600; transition: background .2s, color .2s, border-color .2s, transform .2s; }
-.social-link[href]:hover, .social-link[href]:focus-visible { background: var(--button-gradient); color: #ffffff; border-color: transparent; transform: translateY(-2px); }
+.social-link[href]:hover, .social-link[href]:focus-visible { background: var(--soft); color: var(--ink); border-color: var(--accent); }
 .social-link[href]:active { transform: translateY(1px); }
 .social-link svg { width: 15px; height: 15px; }
 .social-link > span { margin-left: 1px; font-size: 16px; }
