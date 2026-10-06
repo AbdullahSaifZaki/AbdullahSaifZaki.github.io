@@ -20,7 +20,7 @@ window.PORTFOLIO = {
       tags: ["AI agents", "FastAPI", "LangGraph", "Semantic search"]
     },
     {
-      title: "Türkiye House Price Prediction",
+      title: "House Price Prediction in Turkey",
       description: "An end-to-end machine learning application that estimates house prices from nine property features. Prepared 17,292 records, compared four regression models, and selected XGBoost through validation. A FastAPI backend and responsive web interface bring predictions to users, with a held-out test log RMSE of 0.300.",
       url: "https://github.com/AbdullahSaifZaki/house_prices_predictor_ML",
       tags: ["Machine learning", "XGBoost", "Python", "FastAPI"]
