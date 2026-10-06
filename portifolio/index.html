@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Abdullah Saif Zaki — AI engineering enthusiast building intelligent assistants, machine learning models, and Python APIs.">
+  <title>Abdullah Saif Zaki — AI Engineering Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./portfolio.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="identity" href="#home" aria-label="Portfolio home">
+        <span class="identity-caption"><strong id="header-name">Abdullah Saif</strong></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 14A8.5 8.5 0 0 1 10 4a8.5 8.5 0 1 0 10 10Z"/></svg>
+      </button>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero container" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">Building practical AI<br><span class="hero-highlight">for real-world problems.</span></h1>
+        <p class="hero-intro" id="introduction">I’m an AI engineering enthusiast building intelligent assistants, machine learning models, and Python APIs that help businesses turn data into decisions and make everyday work simpler.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View my projects <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 4v15m-6-6 6 6 6-6"/></svg></a>
+          <a class="social-link" data-link="github" href="https://github.com/AbdullahSaifZaki" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.54v-2.08c-3.09.67-3.75-1.32-3.75-1.32-.51-1.29-1.24-1.63-1.24-1.63-1.01-.7.08-.68.08-.68 1.11.08 1.7 1.14 1.7 1.14.99 1.7 2.59 1.21 3.22.93.1-.72.39-1.21.7-1.49-2.47-.28-5.06-1.23-5.06-5.49 0-1.21.43-2.2 1.14-2.98-.11-.28-.5-1.41.11-2.94 0 0 .93-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.12-1.44 3.05-1.14 3.05-1.14.61 1.53.22 2.66.11 2.94.71.78 1.14 1.77 1.14 2.98 0 4.28-2.6 5.2-5.08 5.48.4.34.75 1.02.75 2.06v3.08c0 .3.2.65.76.54A11.1 11.1 0 0 0 12 .9Z"/></svg>GitHub <span aria-hidden="true">↗</span></a>
+          <a class="social-link" data-link="linkedin" href="https://www.linkedin.com/in/abdullah-saif-7bb155397/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.2 3a2.2 2.2 0 1 1 0 4.4 2.2 2.2 0 0 1 0-4.4ZM3.3 9h3.8v12H3.3V9Zm6.2 0h3.6v1.6h.1c.5-.9 1.7-1.9 3.5-1.9 3.8 0 4.5 2.5 4.5 5.7V21h-3.8v-5.8c0-1.4 0-3.2-1.9-3.2s-2.2 1.5-2.2 3.1V21H9.5V9Z"/></svg>LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="container about-inner">
+      <figure class="portrait-wrap">
+        <div class="portrait-frame"><img id="portrait" src="./assets/portrait.png" width="1453" height="1521" alt="Portrait of Abdullah Saif Zaki" fetchpriority="high"></div>
+        <figcaption><span class="portrait-dot" aria-hidden="true"></span><span id="portrait-caption">Abdullah Saif Zaki · AI engineering enthusiast</span></figcaption>
+      </figure>
+        <div class="about-content"><h2 id="about-title">About Me</h2><div class="about-copy" id="about-copy"><p>I enjoy turning AI ideas into usable applications, from a conversational shopping assistant to a machine learning system for estimating house prices. My work brings together data preparation, modeling, APIs, and clear, practical interfaces.</p><p>I’m especially interested in tool-using AI agents, semantic search, and local models. I care about thoughtful evaluation and building systems that solve a clear problem.</p></div></div></div>
+    </section>
+    <section class="projects-section section container" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading"><div><h2 id="projects-title">Main Projects</h2><p class="project-note">Note: Click it to see source code</p></div></div>
+      <div class="project-grid" id="project-grid">
+        <a class="project-card" href="https://github.com/AbdullahSaifZaki/Aisle_e_commerce_assistant" target="_blank" rel="noopener noreferrer" aria-label="Aisle — AI Shopping Assistant — view repository on GitHub (opens in a new tab)"><div class="card-top"><span class="project-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-2 16"/></svg></span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Aisle — AI Shopping Assistant</h3><p>A conversational assistant that helps shoppers find and compare products, check order status, and explore store policies. Built with FastAPI, LangChain, and LangGraph, it combines tool calling with semantic product and FAQ search, persistent conversation memory, authentication, and rate limiting.</p><div class="tags"><span class="tag">AI agents</span><span class="tag">FastAPI</span><span class="tag">LangGraph</span><span class="tag">Semantic search</span></div></a>
+        <a class="project-card" href="https://github.com/AbdullahSaifZaki/house_prices_predictor_ML" target="_blank" rel="noopener noreferrer" aria-label="Türkiye House Price Prediction — view repository on GitHub (opens in a new tab)"><div class="card-top"><span class="project-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-2 16"/></svg></span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Türkiye House Price Prediction</h3><p>An end-to-end machine learning application that estimates house prices from nine property features. Prepared 17,292 records, compared four regression models, and selected XGBoost through validation. A FastAPI backend and responsive web interface bring predictions to users, with a held-out test log RMSE of 0.300.</p><div class="tags"><span class="tag">Machine learning</span><span class="tag">XGBoost</span><span class="tag">Python</span><span class="tag">FastAPI</span></div></a>
+      </div>
+    </section>
+    <section class="skills-section section" id="skills" aria-labelledby="skills-title">
+      <div class="container"><div class="section-heading"><div><h2 id="skills-title">Skills & tools<span class="accent">.</span></h2></div></div><div class="skills-grid" id="skills-grid"><div class="skill-group"><h3>Machine learning &amp; data</h3><ul><li>Python</li><li>scikit-learn</li><li>XGBoost</li><li>CatBoost</li><li>Pandas</li><li>NumPy</li></ul></div><div class="skill-group"><h3>AI agents &amp; retrieval</h3><ul><li>LangChain</li><li>LangGraph</li><li>Sentence Transformers</li><li>Semantic search</li><li>Tool calling</li></ul></div><div class="skill-group"><h3>APIs &amp; databases</h3><ul><li>FastAPI</li><li>SQLAlchemy</li><li>MySQL</li><li>PostgreSQL</li><li>Redis</li><li>Auth0</li></ul></div><div class="skill-group"><h3>Web &amp; development</h3><ul><li>JavaScript</li><li>HTML &amp; CSS</li><li>Vite</li><li>Git</li><li>GitHub</li></ul></div></div></div>
+    </section>
+    <section class="contact-section section container" id="contact" aria-labelledby="contact-title">
+      <div class="contact-panel">
+        <h2 id="contact-title">Contact</h2>
+        <p id="contact-note">Open to full-time offers, internships, and research collaborations. The fastest way to reach me is via email.</p>
+        <div class="contact-actions"><a class="button button-primary" id="email-link" href="mailto:abdullahsaifomairi@gmail.com">Email me</a><small class="contact-email" id="contact-email">email: abdullahsaifomairi@gmail.com</small></div>
+      </div>
+    </section>
+  </main>
+  <footer class="container site-footer"><p>© <span id="year">2026</span> <span id="footer-name">Abdullah Saif Zaki</span></p><a href="#home">Back to top <span aria-hidden="true">↑</span></a></footer>
+  <noscript><p class="container">Enable JavaScript to use the light and dark theme switch.</p></noscript>
+</body>
+</html>
