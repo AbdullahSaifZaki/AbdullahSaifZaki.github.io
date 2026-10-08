@@ -9,7 +9,7 @@ window.PORTFOLIO = {
   ],
   github: "https://github.com/AbdullahSaifZaki",
   linkedin: "https://www.linkedin.com/in/abdullah-saif-7bb155397/",
-  email: "abdullahsaifomairi@gmail.com",
+  email: "abdullahsaifzaki@gmail.com",
   portraitCaption: "Abdullah Saif Zaki",
   contactNote: "Open to full-time offers, internships, and research collaborations. The fastest way to reach me is via email.",
   projects: [
